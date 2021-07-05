@@ -24,10 +24,10 @@ Matlab code to generate Fig.S7: scatter plot (+/- SD) and pearson correlation co
 Matlab code to generate Fig.4D: bar plot showing the LPL (long protein lifetime) synapses as a percentage of total synapse number across subregions of the brain.
 
 #### 5. TotalIntensity_decay_part1.mlx
-Matlab code to extract individual puncta size, mean intensity and total puncta number from all experimental animals across all regions and subregions of the brain. The data is later used in part2 to fit an exponential decay function and produce the half-life values that are presented in Figs. 2A, S10, S11, S12.
+Matlab code to extract individual puncta size, mean intensity and total puncta number from all experimental animals across all regions and subregions of the brain. The data is later used in part2 to fit an exponential decay function and produce the half-life values that are presented in Figs. 2A, S10, S11, and S12.
 
 #### 6. TotalIntensity_decay_part2.mlx
-Matlab code to fit an exponential decay function on puncta total intensity values to estimate PSD95 half-life. Results presented in Figs. S11 and S12.
+Matlab code to fit an exponential decay function on puncta total intensity values to estimate PSD95 half-life. Results presented in Figs. 2A, S10, S11 and S12.
 
 #### 7. similarity_matrix_halflife.mlx
 Matlab code to generate Fig.5D: differences in PSD95 half-life across 110 subregions is transformed into a measure of similarity between pairs of subregions using a Gaussian kernel function. The result is plotted as a heatmap.
